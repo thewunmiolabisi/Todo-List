@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #e6e5f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 100%;
+  width: 30%;
+  padding: 20px;
+  margin: 10px;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+}
+.action-button1{
+  background-color:#f5ec83;
+  padding: 8px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.action-button2{
+  background-color:#b5ea80;
+  padding: 8px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+
+}
+
+.action-button3{
+  background-color:#f8aaaa;
+  padding: 8px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.action-button4{
+  background-color:#b2b2ee;
+  padding: 8px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
